@@ -28,7 +28,7 @@ setShippingData(data);
 
         console.log(orderDetails);
 
-      fetch('http://localhost:5000/addOrder',{
+      fetch('https://sleepy-thicket-68977.herokuapp.com/addOrder',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
